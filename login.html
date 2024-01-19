@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+<!--font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Link to your CSS file if you have one -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+        <a href="#" class="logo"><i class="fas fa-heartbeat"></i> MIHealth</a>
+        </div>
+    </header>
+
+<div class="wrapper">
+    <div class="form-box-login">
+        <h2>Login</h2>
+        <form action="#" >
+            <div class="input-box">
+                <span class="icon">
+                <i class="fas fa-envelope"></i>
+                </span>
+                <input type="email" required placeholder="Email">
+                
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                <i class="fas fa-lock"></i>
+                </span>
+                <input type="password"  required placeholder="Password">
+                
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit"id="login-form" class="btn">Login</button>
+            <div class="login-register">
+                <p>Don't have an account?<a href="#"class="register-link">Register</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!--custom js file link-->
+<script src="js/script.js"></script>
+<script>
+     document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById('login-form').addEventListener('click', function() {
+        window.location.href = 'Home.html';
+    });
+    });
+</script>
+
+
+</body>
+</html>

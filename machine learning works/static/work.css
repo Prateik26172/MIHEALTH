@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap');
+:root{
+    --white:#fff;
+    --red:#FF0000;
+    --light-blue:rgb(57, 199, 247);
+    --yellow:yellow;
+    --light-color:#777;
+    --green:#16a085;
+    --black:#444;
+    --box-shadow:.5rem .5rem 0 rgba(22,160,133,.2);
+    --text-shadow:0.5rem 0 0 rgba(0,0,0,.2);
+    --border:.2rem solid var(--green);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: Ivory;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: Red;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+label, select, input {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: Red;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+h3 {
+    color: Red;
+    font-size: 24px;
+}
+
+/* Add more CSS styling as needed */
